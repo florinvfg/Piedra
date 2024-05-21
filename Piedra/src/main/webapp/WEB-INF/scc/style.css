@@ -1,0 +1,54 @@
+/* Estilo para el encabezado (header) */
+header {
+    background-color: #eaa7a7;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+    color: #172ebd;
+    font-size: 2em;
+}
+
+/* Estilo para el contenedor del juego */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.choices {
+    margin: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #afbcd7;
+    color: #172ebd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.choice:hover {
+    background-color: azure;
+    color: darkslategrey;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #172ebd;
+}
+
+/* Estilo para el pie de página (footer) */
+footer {
+    background-color: #eaa7a7;
+    padding: 10px;
+    text-align: center;
+}
